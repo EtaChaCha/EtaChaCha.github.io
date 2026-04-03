@@ -54,14 +54,21 @@ title-img: "https://s41.ax1x.com/2026/04/02/peJXart.jpg"
 social-network-links:
   github: EtaChaCha
   email: "18799024513@163.com"
-  links:
-    - tittle: "微博"
-      url: "https://www.weibo.com/u/7004518464"
-      icon: "fab fa-weibo"
-  links:
-    - tittle: "抖音"
-      url: "https://www.douyin.com/user/self?from_tab_name=main"
-      icon: "fab fa-tiktok"
+footer-links:
+  - name: 微博
+    url: "https://www.weibo.com/u/7004518464"
+    icon: "fab fa-weibo"
+  - name: 抖音
+    url: "https://www.douyin.com/user/self?from_tab_name=main"
+    icon: "fab fa-tiktok"
+  #links:
+    #- tittle: "微博"
+      #url: "https://www.weibo.com/u/7004518464"
+      #icon: "fab fa-weibo"
+  #links:
+    #- tittle: "抖音"
+      #url: "https://www.douyin.com/user/self?from_tab_name=main"
+      #icon: "fab fa-tiktok"
   #rss: true  # remove this line if you don't want to show an RSS link at the bottom
   #facebook: deanattali
   #twitter: daattali
