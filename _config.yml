@@ -20,13 +20,15 @@ author: Monroe Zhang
 ###############################################
 
 navbar-links:
-  HOME: "https://EtaChaCha.github.io"
-  ABOUT ME: "aboutme"
-  HISTORY:
+  About Me: "aboutme"
+  Experience:
     - Projects: "https://beautifuljekyll.com"
-    - Experiences: "https://www.markdowntutorial.com/"
+    - Activities: "https://www.markdowntutorial.com/"
   CV: "aboutme"
-  POST: "https://deanattali.com"
+  Memories/Musings:
+    - Uni Days: "#"
+    - Kid Me: "#"
+    - Thoughts: "#"
 
 
 ################
