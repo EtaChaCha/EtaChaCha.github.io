@@ -10,7 +10,7 @@
 ############################
 
 # Name of website
-title: Home | EtaChaCha
+title: EtaChaCha
 
 # Your name to show in the footer
 author: Monroe Zhang
@@ -20,6 +20,7 @@ author: Monroe Zhang
 ###############################################
 
 navbar-links:
+  Home: "https://EtaChaCha.github.io"
   About Me: "aboutme"
   Experience:
     - Projects: "#"
@@ -54,13 +55,10 @@ title-img: "https://s41.ax1x.com/2026/04/03/peYjAH0.jpg"
 social-network-links:
   github: EtaChaCha
   email: "18799024513@163.com"
-social-network-links:
-  github: EtaChaCha
-  email: "18799024513@163.com"
 # 使用 footer-extra 添加自定义图标（注意缩进和格式）
-footer-extra: |
-  <a href="https://www.weibo.com/u/7004518464" title="微博" target="_blank" style="color:#777777;margin:0 10px;"><i class="fab fa-weibo fa-lg"></i></a>
-  <a href="https://www.douyin.com/user/self?from_tab_name=main" title="抖音" target="_blank" style="color:#777777;margin:0 10px;"><i class="fab fa-tiktok fa-lg"></i></a>
+footer-extra:
+  - '<a href="https://weibo.com/..." title="微博" target="_blank"><i class="fab fa-weibo fa-lg"></i></a>'
+  - '<a href="https://douyin.com/..." title="抖音" target="_blank"><i class="fab fa-tiktok fa-lg"></i></a>'
   #links:
     #- tittle: "微博"
       #url: "https://www.weibo.com/u/7004518464"
