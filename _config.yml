@@ -22,9 +22,9 @@ author: Monroe Zhang
 navbar-links:
   About Me: "aboutme"
   Experience:
-    - Projects: "https://beautifuljekyll.com"
-    - Activities: "https://www.markdowntutorial.com/"
-  CV: "aboutme"
+    - Projects: "#"
+    - Activities: "#"
+  CV: "#"
   Memories/Musings:
     - Uni Days: "#"
     - Kid Me: "#"
