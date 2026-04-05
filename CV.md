@@ -24,6 +24,6 @@ subtitle: Monroe Zhang
   <a href="{{ "/assets/pdf/Monroe_Zhang_CV.pdf" | relative_url }}" 
      download 
      style="display: inline-block; padding: 10px 20px; background-color: #f990e4; color: black; text-decoration: none; border-radius: 5px; font-weight: bold;">
-    📥 点击下载
+     Download
   </a>
 </div>

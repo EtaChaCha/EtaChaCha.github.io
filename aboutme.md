@@ -1,7 +1,6 @@
 ---
 layout: page
 title: About me
-subtitle: Some cherished memories from my college life
 ---
 
 My name is Inigo Montoya. I have the following qualities:
