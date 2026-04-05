@@ -23,7 +23,7 @@ navbar-links:
   Home: "https://EtaChaCha.github.io"
   About Me: "aboutme"
   Experience:
-    - Projects: "#"
+    - Projects: "Projects"
     - Activities: "#"
   CV: "CV"
   Memories/Musings:
