@@ -24,12 +24,11 @@ navbar-links:
   About Me: "aboutme"
   Experience:
     - Projects: "Projects"
-    - Activities: "#"
+    - Activities: "Activities"
   CV: "CV"
   Memories/Musings:
-    - Uni Days: "#"
-    - Kid Me: "#"
-    - Thoughts: "#"
+    - Kid Me: "Kid_Me"
+    - Thoughts: "Thoughts"
 
 ################
 # --- Logo --- #
