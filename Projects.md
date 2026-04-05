@@ -28,8 +28,13 @@ subtitle: "Academic Works & Competition Essays"
                 {% endfor %}
               </div>
             {% endif %}
+            <!-- 摘要：自动截取正文前21个字符，并添加 Read More 链接 -->
             <div class="post-excerpt" style="margin-top: 8px;">
-              {{ post.excerpt | strip_html | truncatewords: 20 }}
+              {{ post.content | strip_html | truncate: 21, "" }}
+              {% assign stripped_content = post.content | strip_html %}
+              {% if stripped_content.size > 21 %}
+                <a href="{{ post.url | relative_url }}" style="margin-left: 5px;">[Read More]</a>
+              {% endif %}
             </div>
           </div>
           <!-- 右侧：缩略图 -->
