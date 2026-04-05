@@ -29,7 +29,7 @@ subtitle: "Academic Works & Competition Essays"
               </div>
             {% endif %}
             <div class="post-excerpt" style="margin-top: 8px;">
-              {{ post.excerpt | strip_html | truncatewords: 40 }}
+              {{ post.excerpt | strip_html | truncatewords: 20 }}
             </div>
           </div>
           <!-- 右侧：缩略图 -->
