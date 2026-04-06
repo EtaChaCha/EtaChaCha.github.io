@@ -35,7 +35,7 @@ subtitle: "Academic Works & Competition Essays"
           <!-- 左侧：简介 -->
           <div style="flex: 1; min-width: 250px;">
             <div class="post-entry" style="color: #444; line-height: 1.6;">
-              {{ post.content | strip_html | truncate: 60 }}
+              {{ post.content | strip_html | truncate: 126 }}
               {% assign excerpt_length = 21 %}
               {% assign excerpt_word_count = post.content | strip_html | size %}
               {% if excerpt_word_count > excerpt_length %}
