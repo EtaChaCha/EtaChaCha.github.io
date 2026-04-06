@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About me
-subtitle :
+subtitle : A Glimpse of Who I Am & What I Love
 ---
 
 - a student preparing for postgraduate entrance exams.
@@ -22,7 +22,7 @@ This website is used to:
 ## Contact
 You can find my email and social media accounts via the links at the bottom of the page~
 
-## What I Love
+## Interests
 ### 1.Favorite Books
 Recently I’ve been reading *《The Myth of Sisyphus》*.
 My all-time favorites include:
