@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: page
 title: Projects
 subtitle: "Academic Works & Competition Essays"
 ---
@@ -28,8 +28,8 @@ subtitle: "Academic Works & Competition Essays"
                 {% endfor %}
               </div>
             {% endif %}
-            <div class="post-excerpt" style="margin-top: 8px;">
-              {{ post.excerpt | strip_html | truncatewords: 40 }}
+            <div class="post-excerpt" style="margin-top: 12px; color: #444; line-height: 1.6;">
+              {{ post.content | strip_html | truncate: 21 }}...
             </div>
           </div>
           <!-- 右侧：缩略图 -->
