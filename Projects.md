@@ -70,7 +70,7 @@ subtitle: "Academic Works & Competition Essays"
           </div>
         {% endif %}
         
-        <hr style="margin: 30px 0; border: none; border-top: 1px solid #eee;">
+        <hr style="margin: 15px 0; border: none; border-top: 1px solid #eee;">
       </article>
     {% endif %}
   {% endfor %}
