@@ -47,5 +47,3 @@ subtitle: "My younger days, captured"
     </figure>
   </div>
 </div>
-
-</div>
