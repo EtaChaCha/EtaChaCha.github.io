@@ -7,7 +7,7 @@ subtitle: "Academic Works & Competition Essays"
 <div class="posts-list">
   {% for post in site.posts %}
     {% if post.categories contains "modeling" %}
-      <article class="post-preview" style="margin-bottom: 40px;">
+      <article class="post-preview" style="margin-bottom: 20px;">
         
         <!-- 标题 -->
         <h2 class="post-title" style="margin-bottom: 5px; font-size: 1.75rem;">
@@ -35,7 +35,7 @@ subtitle: "Academic Works & Competition Essays"
           <!-- 左侧：简介 -->
           <div style="flex: 1; min-width: 250px;">
             <div class="post-entry" style="color: #444; line-height: 1.6;">
-              {{ post.content | strip_html | truncate: 21 }}
+              {{ post.content | strip_html | truncate: 39 }}
               {% assign excerpt_length = 21 %}
               {% assign excerpt_word_count = post.content | strip_html | size %}
               {% if excerpt_word_count > excerpt_length %}
@@ -46,11 +46,11 @@ subtitle: "Academic Works & Competition Essays"
           
           <!-- 右侧：缩略图 -->
           {% if post.thumbnail-img %}
-            <div class="post-image" style="flex-shrink: 0;">
+            <div class="post-image" style="flex-shrink: 0; margin-left: 10px;">
               <a href="{{ post.url | relative_url }}" aria-label="Thumbnail">
                 <img src="{{ post.thumbnail-img | relative_url }}" 
                      alt="Post thumbnail" 
-                     style="width: 150px; height: auto; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
+                     style="width: 12rem; height: 12rem; object-fit: cover; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
               </a>
             </div>
           {% endif %}
