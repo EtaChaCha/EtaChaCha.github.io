@@ -82,7 +82,7 @@ let BeautifulJekyllJS = {
             getNextImg();
           }, 1000);
           //});
-        }, 6000);
+        }, 2000);
       };
 
       // If there are multiple images, cycle through them
